@@ -781,6 +781,44 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+li {
+  list-style: none;
+}
+#sidebar a {
+  color: #474747;
+  display: inline-block;
+  font-size: 14px;
+  padding: 6px 0;
+}
+#sidebar ul {
+  margin-bottom: 0;
+}
+#sidebar li > div {
+  border-radius: 2px 0 0 2px;
+  padding-left: 5px;
+}
+#sidebar .active>div {
+  background-color: #F1EFEF;
+  color: #fff;
+}
+#loading-layer {
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .95;
+}
+#loading-layer img {
+  position: absolute;
+  left: 50%;
+  margin-left: -57px;
+  top:160px;
+}
+
 /* #Media Queries
 ================================================== */
 
